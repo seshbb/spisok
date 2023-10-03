@@ -37,7 +37,7 @@ function createHtmlElement(item){
                 divEl.classList.add('todo-list__item_done')
             }
     
-            const text = document.createElement('img')
+            const text = document.createElement('text')
             text.classList.add('todo-list_item-text')
             text.innerText= item.text
     
